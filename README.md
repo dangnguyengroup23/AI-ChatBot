@@ -3,13 +3,14 @@
 A simple, full-stack AI chatbot application built using PyTorch for intent classification and Flask for serving a web-based frontend. It uses classic NLP techniques (tokenization, stemming, and bag-of-words) to understand user input and generate intent-based responses.
 
 🚀 Features
-✅ Intent classification with >95% training accuracy
-🧠 NLP preprocessing with NLTK (tokenization, stemming)
-📦 Data persistence using SQLite for storing conversation logs
-🧱 Bag-of-Words vectorization + custom ANN (PyTorch)
-🌐 Full-stack integration with Flask and HTML/CSS frontend
-🗂️ Easily extensible intent system via intents.json
-🤖 Smart, empathetic response logic using basic sentiment awareness
+
+1. ✅ Intent classification with 95%+ training accuracy
+2. 🧠 NLP preprocessing using NLTK (tokenization + stemming)
+3. 🧱 Custom ANN model built with PyTorch
+4. 📦 SQLite database for storing chat logs
+5. 🌐 Full-stack integration with Flask + HTML/CSS frontend
+6. 🗂️ Easily extensible intent system via intents.json
+7. 🤖 Basic sentiment-aware responses for empathy
 
 🛠 Tech Stack
 Backend: Python, PyTorch, Flask
@@ -20,21 +21,21 @@ Data Format: JSON (for intent structure)
 
 ⚙️ Installation & Setup
 
-2. Create a virtual environment 
+1. Create a virtual environment 
 python -m venv venv
 source venv/bin/activate  # or venv\Scripts\activate on Windows
 
-3. Install dependencies
+2. Install dependencies
 pip install -r requirements.txt
 
-4. Download NLTK tokenizer data
+3. Download NLTK tokenizer data
 import nltk
 nltk.download('punkt')
 
-5. Train the chatbot model
+4. Train the chatbot model
 python train.py
 
-6. Run the Flask app
+5. Run the Flask app
 python app.py
 
 📈 Training Output
