@@ -1,0 +1,416 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "Hello",
+        "Good morning",
+        "Good evening",
+        "Good afternoon",
+        "How are you?",
+        "What's up?",
+        "Yo",
+        "Howdy",
+        "Greetings",
+        "Hey there",
+        "What's good",
+        "How's it going",
+        "Nice to meet you",
+        "Sup",
+        "G'day",
+        "Hiya"
+      ],
+      "responses": [
+        "Hello! 😊 How can I brighten your day?",
+        "Hey there! What's on your mind today?",
+        "Hi! I'm here and ready to chat!",
+        "Greetings! How are you feeling today?",
+        "Hello! What would you like to talk about?",
+        "Hey! Great to see you here! 🌟",
+        "Hi there! I'm excited to help you out!"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "Bye",
+        "Goodbye",
+        "See you later",
+        "Catch you later",
+        "Talk to you soon",
+        "Take care",
+        "I have to go",
+        "Gotta run",
+        "Until next time",
+        "Farewell",
+        "Peace out",
+        "Later",
+        "Adios",
+        "Ciao"
+      ],
+      "responses": [
+        "Bye! Take care and have an amazing day! 😊",
+        "See you later! Thanks for the great chat!",
+        "Goodbye! Come back anytime you need me!",
+        "Talk to you soon! Stay awesome! ✨",
+        "Take care! I'll be here when you need me!",
+        "Until next time! Keep smiling! 😄",
+        "Farewell! It was wonderful chatting with you!"
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": [
+        "Thanks",
+        "Thank you",
+        "I appreciate it",
+        "Thanks a lot",
+        "Much appreciated",
+        "Thanks so much",
+        "Thank you very much",
+        "You're helpful",
+        "That was great",
+        "Perfect, thanks",
+        "Awesome, thank you",
+        "You're the best",
+        "I'm grateful"
+      ],
+      "responses": [
+        "You're absolutely welcome! 😊",
+        "No problem at all! Happy to help!",
+        "Glad I could be useful! 🌟",
+        "Anytime! That's what I'm here for!",
+        "You're very welcome! Feel free to ask more!",
+        "My pleasure! Thanks for being so kind!",
+        "Always happy to help awesome people like you! ✨"
+      ]
+    },
+    {
+      "tag": "funny",
+      "patterns": [
+        "Tell me a joke",
+        "Say something funny",
+        "Do you know any jokes?",
+        "I need a laugh",
+        "Make me laugh",
+        "Tell me something amusing",
+        "Got any good jokes?",
+        "Cheer me up",
+        "Be funny",
+        "Make me smile",
+        "Tell me a pun",
+        "I want to laugh"
+      ],
+      "responses": [
+        "Why don't scientists trust atoms? Because they make up everything! 🤓",
+        "I told my computer I needed a break, and it said 'No problem, I'll go to sleep.' 😴",
+        "What do you call fake spaghetti? An *impasta*! 🍝",
+        "Parallel lines have so much in common… it's a shame they'll never meet. 😢",
+        "Why did the scarecrow win an award? He was outstanding in his field! 🌾",
+        "I'm reading a book about anti-gravity. It's impossible to put down! 📚",
+        "Why don't eggs tell jokes? They'd crack each other up! 🥚",
+        "What do you call a bear with no teeth? A gummy bear! 🐻"
+      ]
+    },
+    {
+      "tag": "mood",
+      "patterns": [
+        "not bad at all",
+        "I'm feeling sad",
+    "I'm not okay",
+    "I'm feeling great",
+    "I'm happy today",
+    "I'm bored",
+    "I'm stressed out",
+    "I'm tired",
+    "I'm excited",
+    "I'm worried",
+    "I'm anxious",
+    "I'm frustrated",
+    "I'm lonely",
+    "I'm angry",
+    "I'm confused",
+    "I'm overwhelmed",
+    "I'm feeling down",
+    "I give up",
+    "This is too hard",
+    "I want to quit",
+    "I feel like giving up",
+    "I can't succeed",
+    "Motivate me",
+    "I need encouragement",
+    "I'm discouraged",
+    "I feel defeated"
+      ],
+      "responses": {
+         "positive": [
+          "That's fantastic to hear! 😄 What's making you feel so great?",
+    "Awesome! Keep up the good vibes. ✨",
+    "Glad you're feeling good today!"
+  ],
+  "negative": [
+    "I'm here for you. Want to talk about what's bothering you?",
+    "Take a deep breath. You're stronger than you know. 💪",
+    "It's okay to feel that way. Let's work through it together.",
+    "Your feelings are valid. How can I support you right now?"
+  ],
+  "neutral": [
+    "I'm always here if you need someone to chat with. 🤗",
+    "Sometimes talking helps. I'm a good listener! 👂"
+  ]
+      }
+    },
+    {
+      "tag": "identity",
+      "patterns": [
+        "Who are you?",
+        "What are you?",
+        "Are you a robot?",
+        "What can you do?",
+        "Tell me about yourself",
+        "Are you human?",
+        "What's your name?",
+        "How do you work?",
+        "Are you real?",
+        "What are your capabilities?",
+        "Can you think?",
+        "Are you intelligent?"
+      ],
+      "responses": [
+        "I'm your friendly AI chatbot — here to talk, joke, and help however I can! 🤖",
+        "Think of me as a helpful digital companion with a passion for conversation!",
+        "I'm not human, but I'm great at chatting and helping out!",
+        "I'm an AI chatbot powered by machine learning — ask me anything!",
+        "I'm here to be your supportive conversation partner! 💬",
+        "I'm a chatbot designed to understand and help with various topics!",
+        "I'm an AI assistant who loves making conversations meaningful! ✨"
+      ]
+    },
+    {
+      "tag": "weather",
+      "patterns": [
+        "What's the weather like?",
+        "How's the weather?",
+        "Is it raining?",
+        "Is it sunny?",
+        "Will it rain today?",
+        "What's the forecast?",
+        "Is it cold outside?",
+        "Is it hot today?",
+        "Should I bring an umbrella?",
+        "What should I wear today?",
+        "Is it windy?",
+        "Tell me about the weather"
+      ],
+      "responses": [
+        "I don't have access to real-time weather data, but I'd suggest checking a weather app or website for the most accurate forecast! ☀️",
+        "I can't check the weather right now, but looking outside or checking your phone's weather app would give you the best info! 🌦️",
+        "While I can't tell you the current weather, I recommend checking a reliable weather service for today's conditions! 🌤️",
+        "I'd love to help with weather info, but I don't have real-time data access. Try your local weather app! ⛅"
+      ]
+    },
+    {
+      "tag": "time",
+      "patterns": [
+        "What time is it?",
+        "What's the time?",
+        "Can you tell me the time?",
+        "What time is it now?",
+        "Do you know what time it is?",
+        "Current time please",
+        "What's the clock say?",
+        "Time check"
+      ],
+      "responses": [
+        "I don't have access to real-time clock data, but you can check the time on your device! ⏰",
+        "I can't tell you the current time, but it should be displayed on your phone or computer! 🕐",
+        "While I can't provide the exact time, your device's clock will have the most accurate information! ⏱️",
+        "I don't have real-time access, but checking your system clock will give you the precise time! 🕰️"
+      ]
+    },
+    {
+      "tag": "help",
+      "patterns": [
+        "Help me",
+        "I need help",
+        "Can you help?",
+        "What can you help with?",
+        "I'm stuck",
+        "I don't know what to do",
+        "Can you assist me?",
+        "I need assistance",
+        "Support me",
+        "Give me advice",
+        "I need guidance",
+        "Help please"
+      ],
+      "responses": [
+    "Of course! I'm here to help. What do you need assistance with?",
+    "Sure, feel free to ask me anything.",
+    "I’m listening — what do you need help with?",
+    "Don’t worry, I'm here to support you. Just tell me what's going on.",
+    "Let's work through this together. How can I assist you?",
+    "I'm happy to help. Please provide a bit more detail.",
+    "You're not alone — I'm here for you. What's the issue?"
+  ]
+    },
+    {
+      "tag": "compliment",
+      "patterns": [
+        "You're awesome",
+        "You're great",
+        "You're helpful",
+        "You're amazing",
+        "You're the best",
+        "You're cool",
+        "You're smart",
+        "You're funny",
+        "I like you",
+        "You're wonderful",
+        "You're fantastic",
+        "You're brilliant"
+      ],
+      "responses": [
+        "Aww, thank you so much! You're pretty awesome yourself! 😊",
+        "That's so kind of you to say! You made my day! ✨",
+        "You're too sweet! I really appreciate the kind words! 🥰",
+        "Thank you! Your positivity is contagious! 🌟",
+        "That means a lot to me! You're wonderful too! 💖",
+        "You're making me blush! Thanks for being so nice! 😄",
+        "Such kind words! You're the best for saying that! 🤗"
+      ]
+    },
+    
+    {
+      "tag": "learning",
+      "patterns": [
+        "How do I learn?",
+        "I want to study",
+        "Help me learn",
+        "I need to improve",
+        "How can I get better?",
+        "I want to develop skills",
+        "How do I practice?",
+        "I want to grow",
+        "How can I progress?",
+        "I need study tips",
+        "How do I master something?",
+        "I want to be smarter"
+      ],
+      "responses": [
+        "Learning is a journey! Start with small, consistent steps and be patient with yourself! 📚",
+        "Break complex topics into smaller chunks and practice regularly! 🧩",
+        "Find what interests you most and dive deep! Curiosity is your best teacher! 🔍",
+        "Practice makes progress! Don't aim for perfection, aim for improvement! 📈",
+        "Mix different learning methods: reading, practicing, teaching others! 🎯",
+        "Set small, achievable goals and celebrate when you reach them! 🏆",
+        "Remember: mistakes are learning opportunities in disguise! 💡"
+      ]
+    },
+    {
+      "tag": "creativity",
+      "patterns": [
+        "I need creative ideas",
+        "I'm not creative",
+        "How can I be more creative?",
+        "I have writer's block",
+        "I need inspiration",
+        "I want to be artistic",
+        "How do I think outside the box?",
+        "I need brainstorming help",
+        "I want to innovate",
+        "Help me create something",
+        "I'm stuck creatively",
+        "I need fresh ideas"
+      ],
+      "responses": [
+        "Creativity is like a muscle - the more you use it, the stronger it gets! 🎨",
+        "Try combining two unrelated things - that's where innovation happens! 💡",
+        "Take a walk, listen to music, or change your environment! Fresh perspectives spark creativity! 🌿",
+        "Everyone is creative in their own way! Don't compare your beginning to someone else's middle! ✨",
+        "Start with 'what if' questions and let your imagination run wild! 🚀",
+        "Embrace imperfection! Some of the best ideas come from happy accidents! 🎭",
+        "Look at problems from different angles - upside down, inside out, backwards! 🔄"
+      ]
+    },
+    {
+      "tag": "random_facts",
+      "patterns": [
+        "Tell me a fact",
+        "Give me a random fact",
+        "Share something interesting",
+        "Tell me something cool",
+        "I want to learn something new",
+        "Surprise me with knowledge",
+        "Share a fun fact",
+        "Tell me something amazing",
+        "What's something interesting?",
+        "Give me trivia",
+        "Tell me something I don't know"
+      ],
+      "responses": [
+        "Did you know? Octopuses have three hearts! Two pump blood to their gills, and one pumps blood to the rest of their body! 🐙",
+        "Fun fact: Honey never spoils! Archaeologists have found pots of honey in ancient Egyptian tombs that are over 3,000 years old and still edible! 🍯",
+        "Amazing fact: A group of flamingos is called a 'flamboyance'! How fitting! 🦩",
+        "Cool fact: Bananas are berries, but strawberries aren't! Botanically speaking, berries have seeds inside! 🍌",
+        "Interesting fact: The shortest war in history lasted only 38-45 minutes! It was between Britain and Zanzibar in 1896! ⚔️",
+        "Mind-blowing fact: There are more possible games of chess than atoms in the observable universe! ♟️",
+        "Fascinating fact: Dolphins have names for each other! They use unique whistle signatures! 🐬"
+      ]
+    }
+  ],
+  "features": {
+    "context_awareness": {
+      "description": "The bot can remember context within a conversation and refer back to previous messages",
+      "implementation": "Store conversation history and reference it in responses"
+    },
+    "sentiment_analysis": {
+      "description": "Detect user emotions and respond appropriately",
+      "implementation": "Analyze tone and adjust response style accordingly"
+    },
+    "personalization": {
+      "description": "Learn user preferences and adapt responses over time",
+      "implementation": "Store user preferences and conversation patterns"
+    },
+    "multi_language": {
+      "description": "Support multiple languages for global users",
+      "implementation": "Detect language and provide responses in the same language"
+    },
+    "smart_suggestions": {
+      "description": "Offer relevant follow-up questions or topics",
+      "implementation": "Suggest related topics based on conversation flow"
+    }
+  },
+  "conversation_flow": {
+    "follow_up_questions": [
+      "What else would you like to know?",
+      "Is there anything specific you'd like to explore?",
+      "How can I help you further?",
+      "What's your next question?",
+      "Would you like to dive deeper into this topic?"
+    ],
+    "topic_transitions": [
+      "Speaking of that, have you considered...",
+      "That reminds me of...",
+      "On a related note...",
+      "Building on that idea...",
+      "That connects to..."
+    ]
+  },
+  "error_handling": {
+    "unclear_input": [
+      "I'm not sure I understand. Could you rephrase that?",
+      "Can you tell me more about what you mean?",
+      "I want to help, but I need a bit more context!",
+      "Could you clarify what you're looking for?"
+    ],
+    "no_match": [
+      "That's an interesting question! While I might not have a perfect answer, I'm here to chat about it!",
+      "I'm still learning about that topic. What would you like to know specifically?",
+      "That's outside my current knowledge, but I'd love to help with something else!",
+      "I'm not sure about that one, but I'm great at discussing other topics!"
+    ]
+  }
+}
